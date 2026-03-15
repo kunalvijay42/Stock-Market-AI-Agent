@@ -16,5 +16,5 @@ trader_agent = Agent(
     ),
     llm=llm,
     tools=[],
-    verbose=True # To get detailed logs of the agent's thought process and actions
+    verbose=False # To get detailed logs of the agent's thought process and actions
 )

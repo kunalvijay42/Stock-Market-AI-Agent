@@ -14,7 +14,7 @@ analyst_agent = Agent(
     backstory = ("As a Financial Market Analyst, you are responsible for analyzing stock market data to provide insights and recommendations. You will use the Live Stock Information Tool to retrieve real-time stock prices and related information. Your analysis should focus on identifying trends, performance insights, and key financial signals that can help in making informed investment decisions."),
     llm=llm,
     tools=[get_stock_price],
-    verbose=True # To get detailed logs of the agent's thought process and actions
+    verbose=False # To get detailed logs of the agent's thought process and actions
 )
 
 
