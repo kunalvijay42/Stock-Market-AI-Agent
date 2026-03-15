@@ -122,5 +122,15 @@ Get your free Groq API key at [console.groq.com](https://console.groq.com)
 > ```
  
 ---
+ 
+## 🚀 Usage
+ 
+### Option 1 — Streamlit Web UI *(Recommended)*
+```bash
+streamlit run streamlit_app.py
+```
+Open `http://localhost:8501` → Enter a stock ticker (e.g. `AAPL`, `NVDA`, `TSLA`) → View full analysis report
+
+---
 
 *Powered by CrewAI · Groq · yfinance · Streamlit*
