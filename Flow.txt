@@ -1,0 +1,4 @@
+1) Crew.py combines the agent ie the agents in the agent folder should execute in what sequence..
+
+2) main.py - file to give input and get response 
+
